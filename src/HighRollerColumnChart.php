@@ -26,8 +26,13 @@ class HighRollerColumnChart extends HighRoller {
 
   function __construct(){
     parent::__construct();
-    $this->chart->type = 'column';
-  }
 
+    $this->chart->type = 'column';
+
+	$this->xAxis = new HighRollerXAxis();
+	$this->yAxis = new HighRollerYAxis();
+
+	$this->initPlotOptions();
+  }
 }
 ?>

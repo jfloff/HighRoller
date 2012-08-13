@@ -26,7 +26,10 @@ class HighRollerPieChart extends HighRoller {
 
   function __construct(){
     parent::__construct();
+    
     $this->chart->type = 'pie';
+	
+	$this->initPlotOptions();
   }
 
 }
