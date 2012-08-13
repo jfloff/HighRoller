@@ -1,9 +1,9 @@
 <?php
 /**
  * Author: jmac
- * Date: 11/2/11
- * Time: 12:46 PM
- * Desc: HighRoller Scatter Chart SubClass
+ * Date: 9/14/11
+ * Time: 5:46 PM
+ * Desc: HighRoller Bar Chart SubClass
  *
  * Licensed to Gravity.com under one or more contributor license agreements.
  * See the NOTICE file distributed with this work for additional information
@@ -21,15 +21,15 @@
  * limitations under the License.
  *
  */
- 
-class HighRollerScatterChart extends HighRoller {
+
+class HighRollerBarChart extends HighRoller {
 
   function __construct(){
     parent::__construct();
-    $this->chart->type = 'scatter';
-//    $this->xAxis = new HighRollerXAxis();
-//    $this->yAxis = new HighRollerYAxis();
-//    $this->plotOptions->scatter = new HighRollerPlotOptionsByChartType($this->chart->type);
+    $this->chart->type = 'bar';
+//	$this->xAxis = new HighRollerXAxis();
+//	$this->yAxis = new HighRollerYAxis();
+//    $this->plotOptions->bar = new HighRollerPlotOptionsByChartType($this->chart->type);
   }
 
 }
