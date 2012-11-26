@@ -2,20 +2,14 @@
     "name": "highroller",
     "description": "Object-oriented PHP wrapper for Highcharts JS",
     "license": "Creative Commons Attribution-NonComercial 3.0",
+    "type": "library",
     "keywords": [
         "highcharts",
         "highroller"
     ],
     "homepage": "http://highroller.io",
 
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/jfloff/HighRoller"
-        }
-    ],
-
     "require": {
-        "php": ">=5.3"
+        "php": ">=5.3.3"
     }
 }
