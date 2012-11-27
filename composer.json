@@ -14,7 +14,7 @@
     },
     "autoload": {
         "psr-0": {
-            "highroller\\": "build/HighRoller_1.0.0/"
+            "Highroller\\": "build/HighRoller_1.0.0/"
         }
     }
 }
